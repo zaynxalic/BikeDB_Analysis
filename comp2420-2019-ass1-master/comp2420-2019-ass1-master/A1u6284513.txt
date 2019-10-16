@@ -1,0 +1,75 @@
+                     ==============================
+                       COMP2420, Semester 1, 2019
+                         Assignment 1 Mark Sheet
+                     ==============================
+
+=======================================================
+  Uni Id  | Lab Group  | Tutor
+=======================================================
+ u6284513    thu15-17    Utkarsh Marwaha
+=======================================================
+
+Gitlab Repo : u6284513/comp2420-2019-ass1
+
+Markers
+-------
+
+Load data and explore: Alexei, Cecilia
+Data analysis [Q1-Q3]: James, Paige
+Data analysis [Q4-Q5]: Cody, Xu
+Linear regression: Alex
+
+Marks
+=====
+
+========================================
+ Load Data                    :    5/5
+ Exploratory Data Analysis    :    12/15
+
+ Data Analysis
+   Q1                         :   7 /10
+   Q2                         :   7 /10
+   Q3                         :   10 /15
+   Q4                         :    5/6
+   Q5                         :    11/14
+
+ Linear Regression            :    23/25
+
+ Penalty (if any)             :    /100
+========================================
+   Total (max 100)            :  80
+========================================
+
+
+Feedback
+========
+
+Load Data and Exploratory Data Analysis
+---------------------------------------
+
+load, thorough df adjustment (too verbose) head -- all ok
+in EDA, cross-corr heatmap, NameError (import of unkown package),
+other plots failed due to the above import error -- partial creadit is given, 
+no stats proper (apart from heat map), some discussion.
+
+Qualification: use of non-standard packages in not advised; it was our partial 
+oversight not to disallow this explicitly in the Ass One specs (which will be 
+rectified in Ass Two). I did not install and use the package `missingno` because
+it is obscure, unverified (may present a security risk), and downright gratuitous
+to use (especially for the sake of only one method call!). However, the review mark
+is given on the premise that formally such method call was correct and produced a
+reasonable result. The deduction is due to lack of proper statistical analysis
+in EDA part.
+
+Data Analysis
+-------------
+Q4: Answer can be improved by providing more non-trivial relationships or improving the quality of existing analysis
+Q5: Answer can be improved by providing more findings or improving the quality of existing analysis.
+
+Linear Regression
+-----------------
+This section is well done. Your model is defined well and the statsmodels package
+provides great information for the model's performance. Your graph is good, although
+slightly confusing. Perhaps information regarding how to read it and why it is important would be good !
+Your analysis/justification was short but sweet. You could have talked more about the metrics you provided
+and how/why they are important.
